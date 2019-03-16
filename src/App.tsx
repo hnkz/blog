@@ -20,7 +20,7 @@ class App extends React.Component<{}, IState> {
   }
 
   public componentDidMount() {
-    fetch('http://localhost:8000/blogs')
+    fetch('https://hnkznoserver.net/blogs')
       .then(response => response.json())
       .then(data => {
         this.setState({blogs: data});
