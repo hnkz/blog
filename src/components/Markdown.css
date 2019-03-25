@@ -1,0 +1,77 @@
+.mdComponent h1 {
+    font-size: 1.8em;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+.mdComponent h2 {
+    font-size: 1.4em;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+.mdComponent h3 {
+    font-size: 1.4em;
+    line-height: 1.4em;
+
+}
+
+.mdComponent h4 {
+    font-size: 1.3em;
+    line-height: 1.4em;
+
+}
+
+.mdComponent h5 {
+    font-size: 1.2em;
+    line-height: 1.4em;
+
+}
+
+.mdComponent h6 {
+    font-size: 1.1em;
+    line-height: 1.4em;
+}
+
+.mdComponent p {
+    line-height: 1.5em;
+}
+
+.mdComponent ul {
+    margin: 5px;
+}
+
+.mdComponent ol {
+    margin: 5px;
+}
+
+.mdComponent li {
+    line-height: 2em;
+}
+
+.mdComponent img {
+    max-width: 80%;
+    height: auto;
+}
+
+.mdComponent code {
+    line-height: 1em;
+    padding: 3px;
+    background-color: #222;
+    color: #ddd;
+}
+
+.mdComponent pre {
+    width: 100%;
+}
+
+.mdCompoent code.blockCode {
+    width: 100%;
+}
+
+.mdComponent blockquote {
+    quotes: '' '';
+    padding: 10px;
+    margin: 10px auto;
+    border-left: 5px solid #ccc;
+}

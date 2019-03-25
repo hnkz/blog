@@ -1,27 +1,21 @@
 #contents {
     margin: 20px auto;
-    width: 700px;
+    width: 100%;
+    max-width: 900px;
     text-align: left;
 }
 .blogItem {
     background-color: #fff;
-    margin: 20px;
+    margin: 20px 0px;
     padding: 20px;
     filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.3));
 }
-.blogItem h2 {
+.blogItem h2.blogTitle {
     font-size: 2em;
-    text-align: center;
-    margin: 10px;
-}
-.blogItem p {
-    width: 620px;
-}
-.blogItem .text {
-
+    text-align: left;
 }
 #tagarea {
-    width: 600px;
+    width: 100%;
     height: 40px;
 }
 .tag {

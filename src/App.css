@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .App-logo {
@@ -10,8 +13,20 @@
 .App-header {
   background-color: #222;
   height: 100px;
-  padding: 20px;
+  padding: 30px 20px 60px 20px;
   color: white;
+}
+
+.App-footer {
+  background-color: #222;
+  height: 40px;
+  width: 100%;
+  padding: 20px 0px;
+  color: white;
+  margin-top: auto;
+}
+.App-footer p {
+  font-size: 0.8em;
 }
 
 #searchInput {
